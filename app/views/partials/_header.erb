@@ -1,0 +1,11 @@
+<% if current_user %>
+<form action='/sessions' method='POST'>
+  <input type='hidden' name='_method' value='DELETE'>
+  <button type='submit'>Logout</button>
+</form>
+<a href="/">Index</a>
+<% else %>
+<a href="/users/new">Register</a> |
+<a href="/sessions/login">Login</a> |
+<a href="/">Index</a>
+<% end %>
