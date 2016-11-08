@@ -19,12 +19,4 @@ class User < ActiveRecord::Base
     return user if user && user.password == params[:password]
     nil
   end
-
-  # def sub_total
-  #   sum = 0
-  #   self.subscribed_channels.each do |channel|
-  #     sum += channel.price_per_month
-  #   end
-  #   sum
-  # end
 end
