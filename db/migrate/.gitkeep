@@ -1,0 +1,21 @@
+user story
+
+User
+-user can sign up or login
+user/sign-up
+user/login
+user/show(profile)
+user/edit(profile)
+
+Post
+-user can create a post
+	-post/new
+	-post/edit
+	-post/show(can delete or edit a post)
+
+notification
+
+-a user can create a notification if they are logged in
+-notificartion/new
+-notification/show
+-a user can edit or delete notification
